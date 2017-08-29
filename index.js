@@ -1,7 +1,10 @@
 const TelegramBot = require("node-telegram-bot-api");
 const express = require("express");
 var app = express();
-const token = "TELEGRAM_BOT_TOKEN";
+
+const settings = require('./settings.json')
+const token = settings.tokenset;
+
 let bot = new TelegramBot(token, {polling: true});
 
 bot.onText(/\/echo (.+)/, (msg, match) => {
