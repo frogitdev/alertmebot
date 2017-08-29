@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/frogitdev/alertmebot#readme",
   "dependencies": {
+    "express": "^4.15.4",
     "node-telegram-bot-api": "^0.28.0"
   }
 }
