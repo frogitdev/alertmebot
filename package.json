@@ -1,0 +1,22 @@
+{
+  "name": "alertmebot",
+  "version": "1.0.0",
+  "description": "Telegram assistant bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogitdev/alertmebot.git"
+  },
+  "author": "FrogIT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frogitdev/alertmebot/issues"
+  },
+  "homepage": "https://github.com/frogitdev/alertmebot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.28.0"
+  }
+}
