@@ -15,7 +15,5 @@ bot.onText(/\/echo (.+)/, (msg, match) => {
 });
 
 bot.on('message', (msg) => {
-    const chatId = msg.chat.id;
-
-    bot.sendMessage(chatId, "메시지가 정상 수신되었습니다");
+    console.log("@"+msg.from.username+" - "+msg.text);
 });
